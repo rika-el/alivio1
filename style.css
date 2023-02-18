@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+#main {
+    font-family: Lato, Arial, sans-serif;
+    margin: auto;
+    color: #424242;
+    font-size: 20px;
+    font-weight: 300;
+    width: 1920px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: #01996D;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #01996D;
+    line-height: 78.5px;
+}
+
+h3 {
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+button {
+    background-color: #01996D;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    border: 0;
+    border-radius: 4px;
+    padding: 20px 50px;
+}
+
+header {
+    height: 85px;
+    width: 1920px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+header nav {
+    margin-left: 275px;
+    margin-top: 30px;
+}
+
+header nav a {
+    font-family: Lato, Arial, sans-serif;
+    color: #292929;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 32px;
+}
+
+nav a:first-child {
+    margin-right: 137px;
+    padding: 0;
+}
+
+nav a:nth-child(6) {
+    margin-left: 247px;
+    padding: 0;
+}
+
+nav a button {
+    width: 186px;
+    height: 51px;
+    padding: 13px 50px;
+    margin: 0;
+}
+
+.wrapper {
+    font-family: Lato, Arial, sans-serif;
+}
+
+.banner {
+    background: url(BG.png);
+    width: 1920px;
+    height: 895px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.banner .banner-text {
+    width: 440px;
+    position: absolute;
+    top: 285px;
+    left: 275px;
+}
+
+.banner .banner-text .intro {
+    width: 420px;
+    font-size: 20px;
+    line-height: 28.9px;
+    margin-top: 40px;
+}
+
+.banner .banner-text button {
+    margin-top: 60px;
+}
+
+.howitworks {
+    margin-top: 169px;
+    margin-left: 275px;
+    width: 584px;
+    line-height: 78.5px;
+}
+
+.howitworks .text {
+    width: 650px;
+    margin-left: 720px;
+    line-height: 30px;
+    margin-top: -120px;
+    font-size: 20px;
+}
+
+.cards {
+    width: 1391px;
+    margin-left: 275px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 95px;
+}
+
+.card {
+    flex-basis: 390px;
+}
+
+.card .number {
+    position: absolute;
+    font-size: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #01996d;
+    opacity: 0.2;
+}
+
+.card .bigtext {
+    z-index: 1;
+    margin-top: 116px;
+    margin-left: 88px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card .text {
+    font-size: 20px;
+    margin-top: 60px;
+    width: 382px;
+    line-height: 30px;
+}
+
+.card img {
+    border-radius: 12px;
+    margin-top: 60px;
+}
+
+.card:nth-child(2) {
+    margin-top: 205px;
+}
+
+.successstory {
+    width: 1920px;
+    height: 922px;
+    margin-top: 51px;
+    background: #245852;
+    position: absolute;
+}
+
+.successstory .left {
+    margin-left: 207px;
+    margin-top: 310px;
+    width: 580px;
+}
+
+.successstory .left .text {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.successstory .left h2 {
+    color: #fff;
+}
+
+.successstory .left button {
+    margin-top: 57px;
+}
+
+.successstory .right {
+    margin-left: 818px;
+    margin-top: -450px;
+}
+
+.successstory .right .video img {
+    border-radius: 16px;
+}
+
+.ourproduct {
+    margin-top: 1085px;
+}
+
+.ourproduct .left {
+    margin-left: 275px;
+}
+
+.ourproduct .left .imgback {
+    z-index: 1;
+    margin-left: 70px;
+}
+
+.ourproduct .left .imgfront {
+    z-index: 3;
+    margin-top: -225px;
+}
+
+.ourproduct .right {
+    margin-top: -680px;
+    margin-left: 1061px;
+    width: 584px;
+}
+
+.ourproduct .right .text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.ourproduct .right button {
+    margin-top: 40px;
+}
+
+footer {
+    font-family: Lato, Arial, sans-serif;
+    width: 1920px;
+    height: 654px;
+    background: #245852;
+    margin-top: 400px;
+    padding-top: 95px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration: none;
+    display: block;
+    margin: 60px 275px;
+}
